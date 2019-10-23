@@ -3,7 +3,7 @@ public class Exercise3 {
         System.out.println(isPalindrome("aabaa"));
     }
 
-    public static boolean isPalindrome(String str) {
-        return str.equals(new StringBuilder(str).reverse().toString());
+    public static boolean isPalindrome(String word) {
+        return word.equals(new StringBuilder(word).reverse().toString());
     }
 }
